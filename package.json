@@ -1,0 +1,49 @@
+{
+  "name": "aeo-schema-validator",
+  "version": "0.1.0",
+  "description": "Validate a page's schema.org JSON-LD for AEO (Answer Engine Optimization) readiness — covers 13 recommended types, AEO priority signals, and entity graph cross-links. Zero dependency, Node 20+.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "aeo-schema-validator": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "example:url": "node index.js https://ranketai.com",
+    "example:json": "node index.js https://ranketai.com --json"
+  },
+  "keywords": [
+    "schema.org",
+    "json-ld",
+    "aeo",
+    "answer-engine-optimization",
+    "geo",
+    "generative-engine-optimization",
+    "ai-seo",
+    "structured-data",
+    "validator",
+    "llm",
+    "rich-results"
+  ],
+  "author": {
+    "name": "RanketAI",
+    "url": "https://ranketai.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "homepage": "https://github.com/ranketai/aeo-schema-validator#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranketai/aeo-schema-validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ranketai/aeo-schema-validator/issues"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
